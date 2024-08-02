@@ -41,6 +41,9 @@ void main() {
   integers.addAll([25,35,45]);
   print(integers);
 
+  integers.contains(25);
+  print(integers);
+
 
   integers.removeRange(1,3);
   print(integers);
@@ -54,6 +57,7 @@ void main() {
   print(integers);
   integers.replaceRange(5, 8, [55,65,75]);
   print(integers);
+
   
   var fd =integers.sublist(1,3);
   print(fd);

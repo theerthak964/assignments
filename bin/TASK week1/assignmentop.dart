@@ -7,6 +7,10 @@ void main(){
   a++;
   print(a);
 
+  var n1=100;
+  var n2=n1%3;
+  print(n2);
+
 
 
 }

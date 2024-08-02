@@ -26,4 +26,19 @@ var height=140.5;
 print("height=$height meter");
 
 
+  var birthdate=DateTime(2001,08,17);
+  var currentdate=DateTime.now();
+  int ageInMonths = (currentdate.year - birthdate.year) * 12 + currentdate.month - birthdate.month;
+  print('Age in months: $ageInMonths');
+
+
+  var myage=22;
+  var myheight=160;
+  var ageinmonths=ageInMonths;
+  print("my age:$myage");
+  print("my height:$myheight");
+  print("my age in months:$ageinmonths");
+
+
+
 }

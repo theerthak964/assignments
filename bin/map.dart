@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:test/expect.dart';
 
 void main(){
@@ -24,5 +26,10 @@ void main(){
   mydetails.update("address", (value) =>"my address");
   print(mydetails);
 
-
+var key=mydetails.containsKey("name");
+print(key);
+var value=mydetails.containsValue(22);
+print(value);
+ // var newvalue=mydetails.containsKey();
+ // print(newvalue);
 }

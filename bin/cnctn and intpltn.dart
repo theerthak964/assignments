@@ -1,9 +1,14 @@
 void main(){
 String name='ammu';
 print("my name is "+name);
-print("my name$name");
 
 print("${name.length}");
+
+String s1="hyy";
+String s2="welcome";
+print(s1+s2);
+
+print("$s2");
 
 print("${name.toUpperCase()}");
 

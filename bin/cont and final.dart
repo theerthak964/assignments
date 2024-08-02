@@ -38,5 +38,11 @@ void main(){
   };
   print(abc);
 
+  final List<int>list=[1,2,3,4,5];
+  print(list);
+
+  list.insert(3, 10);
+  print(list);
+
 
 }
